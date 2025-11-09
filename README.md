@@ -1,7 +1,7 @@
 # WhatsApp Baileys
 
 <p align="center">
-  <img src="https://files.catbox.moe/ny30vi.jpg" alt="Thumbnail" />
+  <img src="https://i.ibb.co/1GwTjv6g/1898e8488a4f.jpg" alt="Thumbnail" />
 </p>
 
 WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
@@ -37,7 +37,7 @@ Begin by installing the library via your preferred package manager, then follow 
 Send multiple images in a single album message:
 
 ```javascript
-await sock.sendMessage(jid, { 
+await devaskNotBot.sendMessage(jid, { 
     albumMessage: [
         { image: cihuy, caption: "Foto pertama" },
         { image: { url: "URL IMAGE" }, caption: "Foto kedua" }
